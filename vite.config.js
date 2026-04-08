@@ -8,4 +8,9 @@ export default defineConfig({
   plugins: [react(),
         tailwindcss(),
   ],
+  server: {
+    watch: {
+      usePolling: true
+    }
+  }
 })
